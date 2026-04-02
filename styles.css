@@ -1,3 +1,6 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
 p {
   color: white;
 }
@@ -49,8 +52,12 @@ p {
     background-color: aquamarine;
 }
 
+.container div.display div {
+    padding: 10px;
+}
 
-@media (max-width: 480px){
+
+@media (max-width: 580px){
     .container {
         display: flex;
         padding: 10px;
