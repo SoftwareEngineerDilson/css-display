@@ -1,0 +1,63 @@
+p {
+  color: white;
+}
+.red {
+  display: block;
+  background-color: red;
+}
+.green {
+  display: inline;
+  background-color: green;
+}
+.blue {
+  display: inline-block;
+  background-color: blue;
+}
+
+.test-box div {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: rgba(250, 235, 215, 0.616);
+}
+
+.test-box div p {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.test-box h1 {
+    text-align: center;
+    color:rgb(6, 100, 100)
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    flex-direction: row;
+    gap: 10px;
+    justify-self: center;
+    background-color: rgba(250, 235, 215, 0.536);
+}
+
+.container div.display{
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+
+@media (max-width: 480px){
+    .container {
+        display: flex;
+        padding: 10px;
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+        justify-self: center;
+        background-color: rgba(250, 235, 215, 0.805);
+    }
+}

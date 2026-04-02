@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Display Property Example</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="test-box">
+    <h1>CSS Display Property</h1>
+    <div>
+      <p id="block" class="red">display: block</p>
+    </div>
+    <div>
+      <p id="inline" class="green">display: inline</p>
+      <p id="inline-block" class="blue">display: inline-block</p>
+    </div>
+  </div>
+  <hr/>
+  <div class="container">
+    <div class="display block">
+      <div>  
+        <label>Block_W:</label>
+        <input type="range" min="100" max="500" value="100" id="i-block-width" class="slide-red">
+      </div>
+      <div>  
+        <label>Block_H:</label>
+        <input type="range" min="100" max="500" value="100" id="i-block-height" class="slide-red">
+      </div>
+    </div>
+
+    <div class="display inline">
+      <div>  
+        <label>Inline_W:</label>
+        <input type="range" min="100" max="500" value="100" id="i-inline-width" class="slide-green">
+      </div>
+      <div>  
+        <label>Inline_H:</label>
+        <input type="range" min="100" max="200" value="100" id="i-inline-height" class="slide-green">
+      </div>
+    </div>
+
+    <div class="display inline-block">
+      <div>  
+        <label>Inline-Block_W:</label>
+        <input type="range" min="100" max="500" value="100" id="i-inline-block-width" class="slide-blue">
+      </div>
+      <div>  
+        <label>Inline-Block_H:</label>
+        <input type="range" min="100" max="500" value="100" id="i-inline-block-height" class="slide-blue">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
