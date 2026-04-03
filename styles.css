@@ -41,24 +41,16 @@ p {
     margin: 5px 0;
 }
 
-input {
-    width: 100%;
-}
-
 .container {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    flex-direction: row;
+    margin: 10px;
     gap: 10px;
-    justify-self: center;
-    background-color: rgba(250, 235, 215, 0.536);
     border-radius: 10px;
 }
-
-.container div.display{
+.container div.display {
     padding: 10px;
     background-color: rgb(1, 218, 211);
     border-radius: 10px;
@@ -69,6 +61,13 @@ input {
 .container div.display div {
     padding: 5px;
 }
+.slider {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 5px;
+    margin: 10px;
+}
 #footer {
     color: #777;
     font-size: 15px;
@@ -76,14 +75,19 @@ input {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-@media (max-width: 550px){
+@media (max-width: 610px){
     .container {
         display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
         padding: 10px;
         margin-top: 10px;
-        flex-direction: column;
         gap: 10px;
-        justify-self: center;
-        background-color: rgba(250, 235, 215, 0.805);
+    }
+    .container div.display {
+        width: 100%;
+    }
+    input {
+        width: 100%;
     }
 }
