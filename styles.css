@@ -18,10 +18,13 @@ p {
 }
 
 .test-box div {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 5px;
-    background-color: rgba(250, 235, 215, 0.616);
+    border-style: dotted;
+    border-width: 2px;
+    border-color: lightslategrey;
+    border-radius: 10px;
 }
 
 .test-box div p {
@@ -37,23 +40,33 @@ p {
     color:rgb(6, 100, 100)
 }
 
+input {
+    width: 100%;
+}
+
 .container {
     display: flex;
     padding: 10px;
     margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     flex-direction: row;
     gap: 10px;
     justify-self: center;
     background-color: rgba(250, 235, 215, 0.536);
+    border-radius: 10px;
 }
 
 .container div.display{
     padding: 10px;
-    background-color: aquamarine;
+    background-color: rgb(1, 218, 211);
+    border-radius: 10px;
 }
-
+.container div.display::hover{
+    background-color: rgb(144, 197, 124);
+}
 .container div.display div {
-    padding: 10px;
+    padding: 5px;
 }
 
 @media (max-width: 550px){
