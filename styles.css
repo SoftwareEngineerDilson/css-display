@@ -37,7 +37,8 @@ p {
 
 .test-box h1 {
     text-align: center;
-    color:rgb(6, 100, 100)
+    color:rgb(6, 100, 100);
+    margin: 5px 0;
 }
 
 input {
@@ -68,7 +69,13 @@ input {
 .container div.display div {
     padding: 5px;
 }
-
+#footer {
+    color: #777;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 @media (max-width: 550px){
     .container {
         display: flex;
