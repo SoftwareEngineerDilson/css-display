@@ -1,59 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Display Property Example</title>
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./script.js" defer></script>
-</head>
-<body>
-  <div class="test-box">
-    <h1>CSS: Display</h1>
-    <div>
-      <p id="block" class="red">display: block</p>
-    </div>
-    <div>
-      <p id="inline" class="green">display: inline</p>
-      <p id="inline-block" class="blue">display: inline-block</p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="display block">
-      <div class="slider">  
-        <label>Block_W:</label>
-        <input type="range" min="100" max="500" value="100" id="i-block-width" class="slide-red">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Display Property Example</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="test-box">
+      <h1>CSS: Display</h1>
+      <div>
+        <p id="block" class="red">display: block</p>
       </div>
-      <div class="slider">  
-        <label>Block_H:</label>
-        <input type="range" min="100" max="500" value="100" id="i-block-height" class="slide-red">
+      <div>
+        <p id="inline" class="green">display: inline</p>
+        <p id="inline-block" class="blue">display: inline-block</p>
       </div>
     </div>
+    <div class="container">
+      <div class="display block">
+        <div class="slider">
+          <label>Block_W:</label>
+          <input
+            type="range"
+            min="100"
+            max="500"
+            value="100"
+            id="i-block-width"
+            class="slide-red"
+          />
+        </div>
+        <div class="slider">
+          <label>Block_H:</label>
+          <input
+            type="range"
+            min="100"
+            max="500"
+            value="100"
+            id="i-block-height"
+            class="slide-red"
+          />
+        </div>
+      </div>
 
-    <div class="display inline">
-      <div class="slider">  
-        <label>Inline_W:</label>
-        <input type="range" min="100" max="500" value="100" id="i-inline-width" class="slide-green">
+      <div class="display inline">
+        <div class="slider">
+          <label>Inline_W:</label>
+          <input
+            type="range"
+            min="100"
+            max="500"
+            value="100"
+            id="i-inline-width"
+            class="slide-green"
+          />
+        </div>
+        <div class="slider">
+          <label>Inline_H:</label>
+          <input
+            type="range"
+            min="100"
+            max="200"
+            value="100"
+            id="i-inline-height"
+            class="slide-green"
+          />
+        </div>
       </div>
-      <div class="slider">  
-        <label>Inline_H:</label>
-        <input type="range" min="100" max="200" value="100" id="i-inline-height" class="slide-green">
-      </div>
-    </div>
 
-    <div class="display inline-block">
-      <div class="slider">  
-        <label>Inline-Block_W:</label>
-        <input type="range" min="100" max="500" value="100" id="i-inline-block-width" class="slide-blue">
-      </div>
-      <div class="slider">  
-        <label>Inline-Block_H:</label>
-        <input type="range" min="100" max="500" value="100" id="i-inline-block-height" class="slide-blue">
+      <div class="display inline-block">
+        <div class="slider">
+          <label>Inline-Block_W:</label>
+          <input
+            type="range"
+            min="100"
+            max="500"
+            value="100"
+            id="i-inline-block-width"
+            class="slide-blue"
+          />
+        </div>
+        <div class="slider">
+          <label>Inline-Block_H:</label>
+          <input
+            type="range"
+            min="100"
+            max="500"
+            value="100"
+            id="i-inline-block-height"
+            class="slide-blue"
+          />
+        </div>
       </div>
     </div>
-  </div>
-  <footer>
-    <p id="footer" title="by: dtorrefiel">Copyright © 2026 Software Engineering. All Rights Reserved.</p>
-  </footer>
-</body>
+    <hr />
+    <footer>
+      <h1 class="footer-logo">
+        🕷️s<img
+          src="./code.png"
+          class="code-image"
+          height="15"
+          alt="code image"
+        />n
+      </h1>
+      <p id="footer" title="by: dtorrefiel">®️2026 Software Engineering.</p>
+    </footer>
+  </body>
 </html>
